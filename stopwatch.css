@@ -57,3 +57,21 @@ transition:background-color 0.5s ease;
 #resetbtn:hover{
     background-color:hsl(205, 90%, 45%);
 }
+
+@media (max-width: 600px) {
+  body{
+    flex-direction: column;
+    padding:10px;
+  }
+  #myh1{
+    font-size:2.5rem;
+  }
+  #display{
+    font-size:3rem;
+  }
+  #controls button{
+    font-size:1rem;
+    padding:8px 16px;
+    min-width:80px;
+  }
+}
